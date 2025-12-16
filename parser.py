@@ -63,4 +63,4 @@ check_type = ratings(input("Введите тип рейтинга (movies/boxof
 user_rates = check_type
 df = pd.DataFrame(user_rates)
 
-df.to_excel('C:/Users/Pavel/Desktop/folder/user_rates.xlsx', index=False)
+df.to_excel('rates.xlsx', index=False)
